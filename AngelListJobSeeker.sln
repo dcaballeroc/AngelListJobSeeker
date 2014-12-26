@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngelListJobSeeker.App", "AngelListJobSeeker\AngelListJobSeeker.App.csproj", "{DFF98F82-85CC-4272-B019-9F45B4C45D85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngelListJobSeeker.Parser", "AngelListJobSeeker.Parser\AngelListJobSeeker.Parser.csproj", "{6D34806C-77CB-4A2C-9880-CC7709C0FFBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFF98F82-85CC-4272-B019-9F45B4C45D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF98F82-85CC-4272-B019-9F45B4C45D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF98F82-85CC-4272-B019-9F45B4C45D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF98F82-85CC-4272-B019-9F45B4C45D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D34806C-77CB-4A2C-9880-CC7709C0FFBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D34806C-77CB-4A2C-9880-CC7709C0FFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D34806C-77CB-4A2C-9880-CC7709C0FFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D34806C-77CB-4A2C-9880-CC7709C0FFBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

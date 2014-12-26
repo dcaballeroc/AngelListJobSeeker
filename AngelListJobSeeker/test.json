@@ -1,0 +1,5 @@
+{
+    'year-format': "'yyyy'",
+    'starting-day': 0,
+    'show-weeks': false
+}
