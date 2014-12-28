@@ -12,7 +12,7 @@ using Newtonsoft.Json.Linq;
 
 namespace AngelListJobSeeker.Engine
 {
-    public class ApiWrapper
+    internal class ApiWrapper
     {
         public static JArray GetJobListing()
         {
