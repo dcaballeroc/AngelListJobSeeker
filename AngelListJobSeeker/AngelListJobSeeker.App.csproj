@@ -80,6 +80,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AngelListJobSeeker.Engine\AngelListJobSeeker.Engine.csproj">
+      <Project>{3b332bdc-892f-4f14-8201-2317cbf249d0}</Project>
+      <Name>AngelListJobSeeker.Engine</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AngelListJobSeeker.Parser\AngelListJobSeeker.Parser.csproj">
       <Project>{6d34806c-77cb-4a2c-9880-cc7709c0ffbf}</Project>
       <Name>AngelListJobSeeker.Parser</Name>

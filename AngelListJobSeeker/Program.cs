@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using AngelListJobSeeker.Engine;
 using AngelListJobSeeker.Parser;
 
 namespace AngelListJobSeeker.App
