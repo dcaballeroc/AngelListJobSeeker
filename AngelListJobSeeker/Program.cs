@@ -14,7 +14,6 @@ namespace AngelListJobSeeker.App
         static void Main(string[] args)
         {
             var obj = ProfileParser.ParseFile("test.json");
-            Console.WriteLine(obj.year_format);
             JobMatcher.GetTopTenJobs(obj);
 
             Console.ReadKey();

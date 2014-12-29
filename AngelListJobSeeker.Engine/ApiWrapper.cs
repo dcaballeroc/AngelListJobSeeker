@@ -4,8 +4,6 @@ using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -14,7 +12,7 @@ namespace AngelListJobSeeker.Engine
 {
     internal class ApiWrapper
     {
-        public static JArray GetJobListing()
+        public static string GetJobListing()
         {
             var jobs = new JArray();
             var apiUrl = ConfigurationManager.AppSettings["AngelListApiUrl"];
@@ -38,7 +36,7 @@ namespace AngelListJobSeeker.Engine
                 jobs = new JArray(jobs.Union(deserializedResponseContent["jobs"]));
             }
 
-            return jobs;
+            return JsonConvert.SerializeObject(jobs);
         }
     }
 }

@@ -3,25 +3,27 @@ using System.IO;
 
 using Newtonsoft.Json;
 
+using AngelListJobSeeker.Engine.Models;
+
 namespace AngelListJobSeeker.Parser
 {
     public class ProfileParser
     {
-        public static dynamic ParseFile(string fileName)
+        public static Profile ParseFile(string fileName)
         {
             var fileContent = GetFileContent(fileName);
-            dynamic deserializedContent;
+            Profile profile;
 
             try
             {
-                deserializedContent = JsonConvert.DeserializeObject(fileContent);
+                profile = JsonConvert.DeserializeObject<Profile>(fileContent);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 throw new Exception("The JSON content in format is not formatted correctly");
             }
 
-            return deserializedContent;
+            return profile;
         }
 
         private static string GetFileContent(string fileName)
