@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AngelListJobSeeker.Engine.Models
+﻿namespace AngelListJobSeeker.Engine.Models
 {
     public class Startup
     {
@@ -14,6 +8,5 @@ namespace AngelListJobSeeker.Engine.Models
         public string product_desc { get; set; }
         public bool community_profile { get; set; }
         public int quality { get; set; }
-        public int rank { get; set; }
     }
 }

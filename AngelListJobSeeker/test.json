@@ -1,5 +1,61 @@
 {
-    'year-format': "'yyyy'",
-    'starting-day': 0,
-    'show-weeks': false
+    name: "Edward Elric",
+    bio: "Techie with 4+ year experience in software development. Open to learn new programming languages and frameworks and eager to do research to accomplish so.",
+    image: "https://d1qb2nb5cznatu.cloudfront.net/users/783335-medium_jpg?1412032062",
+    milestones: "Successfully released the new Motor Vehicle Tracking platform for Amestris GPS Security Co. which among other things helped to handle more GPS tracking devices connections per second and an improved user experience on the Web app. Released an iPhone/iPad application with a partner which is still in use and available on the App Store after one and half year of being uploaded. Released a wishlist sharing app for iPhone and Android under Rockbell Software; it was built with Phonegap and it's available on Google Play and App Store (update coming soon for the last)",
+    home_address: {
+        "street1": "1001 Random St.",
+        "city": "San Francisco",
+        "state": "CA",
+        "ZIP": "99999"
+    },
+    willing_to_relocate: true,
+    looking_for: [
+        "full-time",
+        "contract"
+    ],
+    experience: [
+        {
+            "company_name": "Rockbell Software",
+            "role": "Developer",
+            "currently_working": true
+        },
+        {
+            "company_name": "Amestris GPS Security Co.",
+            "role": "Software Engineer",
+            "currently_working": false
+        },
+        {
+            "company_name": "Ishval Goods",
+            "role": "DevOps",
+            "currently_working": false
+        }
+    ],
+    projects: [
+        {
+            "name": "Scar Locator",
+            "role": "Full Stack Developer",
+            "finished": true
+        }
+    ],
+    skills: [
+        "HTML",
+        "SQL",
+        "AJAX",
+        "C#",
+        "ASP.NET",
+        "Xcode",
+        "Objective-C",
+        "C#",
+        "Javascript",
+        "Oracle",
+        "Domain Driven Design",
+        "Test Driven Development",
+        "Java",
+        "C++",
+        "MongoDB",
+        "Python",
+        "MVC",
+        "Ruby on Rails"
+    ]
 }

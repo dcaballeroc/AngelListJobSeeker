@@ -20,5 +20,6 @@ namespace AngelListJobSeeker.Engine.Models
         public double? salary_max { get; set; }
         public List<Tag> tags { get; set; }
         public Startup startup { get; set; }
+        public int job_rank { get; set; }
     }
 }
