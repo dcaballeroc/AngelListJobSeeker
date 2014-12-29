@@ -11,9 +11,9 @@ namespace AngelListJobSeeker.App
     {
         static void Main(string[] args)
         {
-            string str = Environment.CurrentDirectory + "\\..\\..\\";
+            var filePath = args.Length == 0 ? Environment.CurrentDirectory + "\\..\\..\\test.json" : args[0];
             var companyEnumerator = 1;
-            var profile = ProfileParser.ParseFile(str + "test.json");
+            var profile = ProfileParser.ParseFile(filePath);
             var topTenCompanies = JobMatcher.GetTopTenCompanies(profile);
 
             Console.WriteLine("Hi {0}, these are the companies that matches your profile:", profile.name);
